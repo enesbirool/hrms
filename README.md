@@ -35,8 +35,13 @@
         </ul>
     <li><b>API / Controllers</b></li>
         <ul>
-            <li><a href='https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/api/controllers/JobPositionController.java'> JobPositionController.java </a></li>
+            <li><a href='https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/api/controllers/JobPositionController.java'> JobPositionController.java </a>            </li>
         </ul> <br>
+    <li><b>Real Person Checker System (KPS)</b></li>
+        <ul>
+            <li><a href='https://github.com/EnesBirol/hrms/tree/master/src/main/java/kodlamaio/hrms/mernisService'> MernisService </a>            </li>
+        </ul> <br>
+    
     <details>
         <summary>Project Code Design...</summary>
         <img src="./photos/5.PNG"></img>
