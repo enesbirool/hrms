@@ -45,7 +45,7 @@
  <br>
     <details>
         <summary>Database Design</summary>
-        <img src="./photos/5.PNG"></img>
+        <img src="./photos/0.PNG"></img>
     </details>
     <hr />
     <details>
