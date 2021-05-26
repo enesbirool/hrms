@@ -2,6 +2,7 @@ package kodlamaio.hrms.business.concretes;
 
 import kodlamaio.hrms.business.abstracts.JobSeekerService;
 import kodlamaio.hrms.business.constants.Messages;
+import kodlamaio.hrms.core.HumanChecker;
 import kodlamaio.hrms.core.utilities.EmailValidator;
 import kodlamaio.hrms.core.utilities.results.*;
 import kodlamaio.hrms.dataAccess.abstracts.JobSeekerDao;
@@ -15,10 +16,12 @@ import java.util.List;
 public class JobSeekerManager implements JobSeekerService {
 
     private JobSeekerDao jobSeekerDao;
+    private HumanChecker humanChecker;
 
     @Autowired
-    public JobSeekerManager(JobSeekerDao jobSeekerDao) {
+    public JobSeekerManager(JobSeekerDao jobSeekerDao,HumanChecker humanChecker) {
         this.jobSeekerDao = jobSeekerDao;
+        this.humanChecker=humanChecker;
     }
 
     @Override
@@ -31,7 +34,10 @@ public class JobSeekerManager implements JobSeekerService {
         try {
             if (!EmailValidator.emailFormatController(jobSeeker.getEmail())) {
                 return new ErrorResult(Messages.EmailFormatError);
-            } else {
+            }else if(!humanChecker.isValid(jobSeeker)){
+                return new ErrorResult(Messages.HumanIdentityError);
+            }
+            else {
                 this.jobSeekerDao.save(jobSeeker);
                 return new SuccessResult(Messages.JobSeekerAddedSuccess);
             }

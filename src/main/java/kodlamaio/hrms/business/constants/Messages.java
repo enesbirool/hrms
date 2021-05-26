@@ -2,6 +2,7 @@ package kodlamaio.hrms.business.constants;
 
 public class Messages {
     public static String EmailFormatError="Eposta formata uygun olmalıdır!";
+    public static String HumanIdentityError="Kimlik Bilgileriniz Yanlış lütfen tekrar doğru bilgi giriniz";
 
     public static String JobSeekerListed="İş arayanlar listelendi.";
     public static String JobSeekerAddedSuccess="İş Arayan Kaydınız Oluşturuldu! Emaile Gelen Maili Onaylayınız!";
