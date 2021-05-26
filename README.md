@@ -6,40 +6,40 @@
 <ul>
     <li><b>Main</b></li>
         <ul>
-            <li><a href='https://github.com/mXBozkurt/HRMS/blob/master/HRMS/src/main/java/kodlamaio/HumanResourcesManagementSystem/HumanResourcesManagementSystemApplication.java'> HumanResourcesManagementSystemApplication.java </a></li>
+            <li><a href='https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/EnesApplication.java'> EnesApplication.java </a></li>
         </ul>
     <li><b>Business</b></li>
         <ul>
             <li>Abstract</li>
                 <ul>
-                    <li><a href="https://github.com/mXBozkurt/HRMS/blob/master/HRMS/src/main/java/kodlamaio/HumanResourcesManagementSystem/business/abstracts/JobPositionService.java">JobPositionService.java</a></li>
+                    <li><a href="https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/business/abstracts/JobPositionService.java">JobPositionService.java</a></li>
                 </ul>
             <li>Concretes</li>
                 <ul>
-                    <li><a href="https://github.com/mXBozkurt/HRMS/blob/master/HRMS/src/main/java/kodlamaio/HumanResourcesManagementSystem/business/abstracts/JobPositionService.java">JobPositionManager.java</a></li>
+                    <li><a href="https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/business/concretes/JobPositionManager.java">JobPositionManager.java</a></li>
                 </ul>
         </ul>
     <li><b>Data Access</b></li>
         <ul>
             <li>Abstract</li>
                 <ul>
-                    <li><a href="https://github.com/mXBozkurt/HRMS/blob/master/HRMS/src/main/java/kodlamaio/HumanResourcesManagementSystem/dataAccess/abstracts/JobPositionDao.java">JobPositionDao.java</a></li>
+                    <li><a href="https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/dataAccess/abstracts/JobPositionDao.java">JobPositionDao.java</a></li>
                 </ul>
         </ul>
     <li><b>Entities</b></li>
         <ul>
             <li>Concretes</li>
                 <ul>
-                    <li><a href="https://github.com/mXBozkurt/HRMS/blob/master/HRMS/src/main/java/kodlamaio/HumanResourcesManagementSystem/entities/concretes/JobPosition.java">JobPosition.java</a></li>
+                    <li><a href="https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/entities/concretes/JobPosition.java">JobPosition.java</a></li>
                 </ul>
         </ul>
     <li><b>API / Controllers</b></li>
         <ul>
-            <li><a href='https://github.com/mXBozkurt/HRMS/blob/master/HRMS/src/main/java/kodlamaio/HumanResourcesManagementSystem/api/controllers/JobPositionController.java'> JobPositionController.java </a></li>
+            <li><a href='https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/api/controllers/JobPositionController.java'> JobPositionController.java </a></li>
         </ul> <br>
     <details>
         <summary>Project Code Design...</summary>
-        <img src="./projeResimleri/7.PNG"></img>
+        <img src="./photos/5.PNG"></img>
     </details>
     <hr />
     <br>
