@@ -1,6 +1,6 @@
 <h2><img align="" alt="HTML5" width="50px" src="https://www.ninjakod.com/wp-content/uploads/2015/01/java.png" /> Human resource management system <img align="" alt="HTML5" width="50px" src="https://www.ninjakod.com/wp-content/uploads/2015/01/java.png" /> </h2><hr /> 
 
-<img src="https://i.hizliresim.com/4h0o0fb.png" align="right"></img>
+<img src="https://i.hizliresim.com/4h0o0fb.png" width="400px" align="right"></img>
 
 <h2>File Directory</h2>
 <ul>
