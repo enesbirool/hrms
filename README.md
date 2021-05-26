@@ -1,10 +1,10 @@
-<img align="left" alt="HTML5" width="50px" src="https://www.ninjakod.com/wp-content/uploads/2015/01/java.png" /><h2>Human resource management system </h2><hr /> 
+<h2><img align="" alt="HTML5" width="50px" src="https://www.ninjakod.com/wp-content/uploads/2015/01/java.png" /> Human resource management system <img align="" alt="HTML5" width="50px" src="https://www.ninjakod.com/wp-content/uploads/2015/01/java.png" /> </h2><hr /> 
 
 <img src="https://i.hizliresim.com/4h0o0fb.png" align="right"></img>
 
 <h2>File Directory</h2>
 <ul>
-    <li><b>Real Person Checker System (KPS)</b></li>
+    <li><b>Real Person Checker System (KPS) <img align="right" alt="HTML5" width="50px" src="https://i.hizliresim.com/3hmoov0.png" /> </b></li>
         <ul>
             <li><a href='https://github.com/EnesBirol/hrms/tree/master/src/main/java/kodlamaio/hrms/mernisService'> MernisService </a>            </li>
         </ul>
