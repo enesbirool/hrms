@@ -47,7 +47,6 @@
         <img src="./photos/hrms.sql" alt="Tıklayıp db ye ulaşabilirsiniz..."></img>
     </details>
     <hr />
-    <br>
     <details>
       <summary>Project Photos Detail</summary>
         <img src="./photos/1.PNG"></img>
