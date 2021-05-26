@@ -44,12 +44,12 @@
     <hr />
     <details>
         <summary>Project hrms Db</summary>
-        <img src="./photos/hrms.sql"></img>
+        <img src="./photos/hrms.sql" alt="Tıklayıp db ye ulaşabilirsiniz..."></img>
     </details>
     <hr />
     <br>
     <details>
-      <summary>Project Detail Photos Web...</summary>
+      <summary>Project Photos Detail</summary>
         <img src="./photos/1.PNG"></img>
         <img src="./photos/2.PNG"></img>
         <img src="./photos/3.PNG"></img>
