@@ -42,14 +42,18 @@
         <img src="./photos/5.PNG"></img>
     </details>
     <hr />
+    <details>
+        <summary>Project hrms Db</summary>
+        <img src="./photos/hrms.sql"></img>
+    </details>
+    <hr />
     <br>
     <details>
       <summary>Project Detail Photos Web...</summary>
-        <img src="./projeResimleri/1.PNG" height="500"></img>
-        <img src="./projeResimleri/2.PNG" height="500"></img> <br>
-        <img src="./projeResimleri/3.PNG"></img>
-        <img src="./projeResimleri/4.PNG"></img>
-        <img src="./projeResimleri/5.PNG"></img>
+        <img src="./photos/1.PNG"></img>
+        <img src="./photos/2.PNG"></img>
+        <img src="./photos/3.PNG"></img>
+        <img src="./photos/4.PNG"></img>
     </details>
     
 <ul>
