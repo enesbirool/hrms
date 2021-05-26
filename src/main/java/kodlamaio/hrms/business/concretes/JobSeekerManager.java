@@ -10,6 +10,7 @@ import kodlamaio.hrms.entities.concretes.JobSeeker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Service
@@ -27,6 +28,7 @@ public class JobSeekerManager implements JobSeekerService {
     @Override
     public DataResult<List<JobSeeker>> getJobSeekers() {
         return new SuccessDataResult<List<JobSeeker>>(jobSeekerDao.findAll(), Messages.JobSeekerListed);
+        
     }
 
     @Override

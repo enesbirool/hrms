@@ -10,7 +10,8 @@ CREATE TABLE public.users
     email    CHARACTER VARYING(320) NOT NULL,
     password CHARACTER VARYING(25)  NOT NULL,
     CONSTRAINT pk_users PRIMARY KEY (id),
-    CONSTRAINT uc_users_email UNIQUE (email)
+    CONSTRAINT uc_users_email UNIQUE (email),
+    created_at date DEFAULT CURRENT_DATE NOT NULL
 );
 
 CREATE TABLE public.jobseekers

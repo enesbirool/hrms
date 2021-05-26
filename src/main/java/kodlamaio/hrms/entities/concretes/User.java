@@ -4,8 +4,10 @@ import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
@@ -27,4 +29,7 @@ public class User {
     @Column(name = "password")
     @NotNull
     private String password;
+
+    @Column(name = "created_at")
+    private LocalDate createdAt;
 }

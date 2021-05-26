@@ -17,8 +17,8 @@ public class MernisAdapterManager implements HumanChecker {
 
         try{
             result=soap.TCKimlikNoDogrula(Long.parseLong(jobSeeker.getIdentityNumber()),
-                    jobSeeker.getFirstName().toUpperCase(Locale.ROOT),
-                    jobSeeker.getLastName().toUpperCase(Locale.ROOT),
+                    jobSeeker.getFirstName().toUpperCase(),
+                    jobSeeker.getLastName().toUpperCase(),
                     jobSeeker.getBirthDate().getYear());
         }catch (Exception e){
             e.getStackTrace();

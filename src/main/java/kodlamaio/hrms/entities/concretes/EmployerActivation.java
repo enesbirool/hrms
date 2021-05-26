@@ -11,7 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name="employer_activation")
-public class EmployerActivation {
+public class EmployerActivation{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,7 +24,7 @@ public class EmployerActivation {
     @Column(name="is_email_confirmed")
     private boolean isEmail = false;
 
-    @Column(name="is_employer_activated")
-    private boolean isActive = false;
+    @Column(name="is_employer_activated_from_admin")
+    private boolean isActiveFromAdmin = false;
 
 }

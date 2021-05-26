@@ -22,7 +22,7 @@ public class JobSeekerActivation {
     private int jobseekerId;
 
     @Column(name = "is_email_confirmed")
-    private boolean isEmail = false;
+    private boolean isEmailConfirm = false;
 
     @Column(name = "is_mernis_valid")
     private boolean isMernis = false;
