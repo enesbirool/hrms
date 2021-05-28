@@ -8,6 +8,7 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.Date;
 
 @Data
 @AllArgsConstructor
@@ -31,5 +32,5 @@ public class User {
     private String password;
 
     @Column(name = "created_at")
-    private LocalDate createdAt;
+    private Date createdDate;
 }

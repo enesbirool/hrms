@@ -55,11 +55,12 @@
     <hr />
     <details>
       <summary>Project Photos Details</summary>
+        <img src="./photos/6.PNG"></img>
         <img src="./photos/1.PNG"></img>
         <img src="./photos/2.PNG"></img>
         <img src="./photos/3.PNG"></img>
         <img src="./photos/4.PNG"></img>
-        <img src="./photos/6.PNG"></img>
+        
     </details>
     
 <ul>
