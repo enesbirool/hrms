@@ -60,7 +60,6 @@
         <img src="./photos/2.PNG"></img>
         <img src="./photos/3.PNG"></img>
         <img src="./photos/4.PNG"></img>
-        
     </details>
     
 <ul>
