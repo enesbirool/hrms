@@ -39,7 +39,7 @@
         </ul>
     <li><b>API / Controllers</b></li>
         <ul>
-            <li><a href='https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/api/controllers/JobPositionsControllerjava'> JobPositionsController.java </a>            </li>
+            <li><a href='https://github.com/EnesBirol/hrms/blob/master/src/main/java/kodlamaio/hrms/api/controllers/JobPositionsController.java'> JobPositionsController.java </a>            </li>
         </ul> <br>
      
  <br>
