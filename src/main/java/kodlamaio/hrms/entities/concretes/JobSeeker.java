@@ -40,43 +40,9 @@ public class JobSeeker extends User{
     @NotNull
     private LocalDate birthDate;
 
-    @Column(name="university")
-    private String university;
-
-    @Column(name="starting_year_of_university")
-    private LocalDate startingYearOfUniversity;
-
-    @Column(name="graduation_year_of_university")
-    private LocalDate graduationYearOfUniversity;
-
-    @Column(name="job_experience")
-    private String jobExperience;
-
-    @Column(name="experience_starting_date")
-    private LocalDate experienceStartingDate;
-
-    @Column(name="experience_end_date")
-    private LocalDate experienceEndDate;
-
-    @Column(name="known_language")
-    private String knownLanguage;
-
-    @Column(name="image_name")
-    private String imageName;
-
-    @Column(name="github_link")
-    private String githubLink;
-
-    @Column(name="linkedin_link")
-    private String linkedInLink;
-
-    @Column(name="cover_letter")
-    private String coverLetter;
-
-    @Column(name="known_technology")
-    private String knownTechnology;
+    @Column(name="jobseeker_description")
+    private String description;
 
     @OneToMany(mappedBy = "jobseeker")
     private List<Image> images;
-
 }
