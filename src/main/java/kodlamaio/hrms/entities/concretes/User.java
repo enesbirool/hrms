@@ -34,7 +34,4 @@ public class User {
 
     @Column(name = "created_at")
     private Date createdDate;
-
-    @OneToMany(mappedBy = "user")
-    private List<Image> images;
 }

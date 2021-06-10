@@ -2,10 +2,8 @@ package kodlamaio.hrms.core.adapters.mernisAdapter;
 
 import kodlamaio.hrms.core.HumanChecker;
 import kodlamaio.hrms.entities.concretes.JobSeeker;
-import kodlamaio.hrms.mernisService.EROKPSPublicSoap;
+import kodlamaio.hrms.mernisService.RGGKPSPublicSoap;
 import org.springframework.stereotype.Service;
-
-import java.util.Locale;
 
 @Service
 public class MernisAdapterManager implements HumanChecker {
@@ -13,7 +11,7 @@ public class MernisAdapterManager implements HumanChecker {
 
     public boolean isValid(JobSeeker jobSeeker) {
         boolean result=false;
-        EROKPSPublicSoap soap=new EROKPSPublicSoap();
+        RGGKPSPublicSoap soap=new RGGKPSPublicSoap();
 
         try{
             result=soap.TCKimlikNoDogrula(Long.parseLong(jobSeeker.getIdentityNumber()),

@@ -35,11 +35,6 @@ public class Image {
     @Column(name="image_id")
     private String imageId;
 
-    @ManyToOne()
-    @JoinColumn(name="user_id")
-    private User user;
-
-
     public Image(String original_filename, String url, String imageId) {
     }
 }
