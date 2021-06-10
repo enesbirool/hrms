@@ -29,9 +29,6 @@ public class Image {
     @Column(name="id")
     private int id;
 
-    @Column(name="name")
-    private String name;
-
     @Column(name="image_url")
     private String imageUrl;
 
@@ -39,8 +36,8 @@ public class Image {
     private String imageId;
 
     @ManyToOne()
-    @JoinColumn(name="jobseeker_id")
-    private JobSeeker jobseeker;
+    @JoinColumn(name="user_id")
+    private User user;
 
 
     public Image(String original_filename, String url, String imageId) {

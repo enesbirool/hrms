@@ -10,6 +10,8 @@ import java.util.List;
 public interface JobSeekerDao extends JpaRepository<JobSeeker,Integer> {
     List<JobSeeker> findByEmail(String email);
 
+    JobSeeker getById(int id);
+
     @Query("Select new kodlamaio.hrms.entities.dtos.JobSeekerLoginDto(c.email,c.password) From JobSeeker c")
     JobSeeker getLoginDetails();
 }

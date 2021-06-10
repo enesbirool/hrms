@@ -19,7 +19,7 @@ import java.util.List;
 public class JobSeeker extends User{
 
     @Id
-    @Column(name="id")
+    @Column(name="jobseeker_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotNull
     private int id;
@@ -43,6 +43,4 @@ public class JobSeeker extends User{
     @Column(name="jobseeker_description")
     private String description;
 
-    @OneToMany(mappedBy = "jobseeker")
-    private List<Image> images;
 }

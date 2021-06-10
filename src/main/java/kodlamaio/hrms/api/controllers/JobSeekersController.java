@@ -31,4 +31,9 @@ public class JobSeekersController {
         return jobSeekerService.addJobSeeker(jobSeeker);
     }
 
+    @GetMapping("getByProductName")
+    public DataResult<JobSeeker> getById(@RequestParam int id){
+        return this.jobSeekerService.getById(id);
+    }
+
 }

@@ -9,6 +9,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -18,7 +19,7 @@ import java.util.Date;
 public class User {
 
     @Id
-    @Column(name = "id")
+    @Column(name = "user_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotNull
     private int id;
@@ -33,4 +34,7 @@ public class User {
 
     @Column(name = "created_at")
     private Date createdDate;
+
+    @OneToMany(mappedBy = "user")
+    private List<Image> images;
 }
