@@ -43,4 +43,7 @@ public class JobSeeker extends User{
     @Column(name="jobseeker_description")
     private String description;
 
+    @OneToMany(mappedBy = "jobseeker")
+    private List<Image> images;
+
 }
